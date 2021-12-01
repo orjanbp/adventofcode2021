@@ -31,7 +31,6 @@ def findIncreases(array):
 
 def findSlidingWindows(array):
     # Find 3-piece sliding windows of the array; 0-2, 1-3, 2-4, etc.
-
     windows = []
 
     # Do this simple, why not, just need i-i+2 after all
