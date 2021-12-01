@@ -1,15 +1,7 @@
-<p align="center">
-
 <br />
-
-# **Advent of Code 2021**
-
-🎄🎄🎅🤶🧑‍🎄🎄🎄
-
+<h1 align="center"><b>Advent of Code 2021</b></h1>
+<p align="center">🎄🎄🎅🤶🧑‍🎄🎄🎄</p>
 <br />
-
-</p>
-
 
 This is the github repo for my Advent of Code 2021 puzzle solutions. It has been a few years now since last time I did much with Python, so I thought this could be a good opportunity to re-familiarize myself with it.
 
