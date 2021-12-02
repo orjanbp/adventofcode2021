@@ -2,7 +2,7 @@
 The submarine drops below the ocean, performing a sweep of the floor. The return report 
 is a list of sea floor measurement, going further and further away from the vessel.
 
-The report is var depthReport.
+The report is data.depthMap.
 
 First task, find out how quickly the depth is increases, by counting the number of times
 depth measurement increases from the previous measurement (not counting first). 

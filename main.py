@@ -4,9 +4,11 @@ a main root file in the project.
 '''
 
 from days.day01.puzzle import printPuzzle1
+from days.day02.puzzle import printPuzzle2
 
 puzzles = [
-    printPuzzle1
+    printPuzzle1,
+    printPuzzle2
 ]
 
 inputString = 'Select day to run (1 - %s):'%(len(puzzles))
