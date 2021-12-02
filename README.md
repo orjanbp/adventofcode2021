@@ -8,3 +8,4 @@ This is the github repo for my Advent of Code 2021 puzzle solutions. It has been
 ### Days of Code
 
 - [Dec 1](./days/day01/puzzle.py)
+- [Dec 2](./days/day02/puzzle.py)
