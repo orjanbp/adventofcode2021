@@ -6,11 +6,13 @@ a main root file in the project.
 from days.day01.puzzle import printPuzzle1
 from days.day02.puzzle import printPuzzle2
 from days.day03.puzzle import printPuzzle3
+from days.day04.puzzle import printPuzzle4
 
 puzzles = [
     printPuzzle1,
     printPuzzle2,
-    printPuzzle3
+    printPuzzle3,
+    printPuzzle4
 ]
 
 inputString = 'Select day to run (1 - %s):'%(len(puzzles))
