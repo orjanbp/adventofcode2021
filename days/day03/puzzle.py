@@ -1,32 +1,3 @@
-'''
-The submarine has been making odd noises, and the diagnostics of the problem is a
-long list of binary numbers that, if decoded properly, can tell me some things about
-the status of the submarine.
-
-First thing I should check is Power Consumption. I can find that by using the report
-to generate the binaries for the Gamma Rate and Epsilon Rate -- the Power Consumption
-is these two values multiplied.
-
-To find the gamma rate, I need to find the most common bit in each of the bit positions,
-and the epsilon rate is the least common. That'll give me two binaries, which I then need
-to decode, and then multiply.
-
-So I guess if the first one would be 10110, then the second one has to be 01001. That
-is convenient; I just need to find the first and then flip it to find the other.
-
-Next after that, have to verify life support rating -- same setup but it's the oxygen generator
-rating multiplied by CO2 scrubber rating.
-
-Both the Oxygen Generator rating and CO2 Scrubber rating can be found in the same report,
-but the approach for finding them are different:
-
-I have to filter down the data bit by bit, and at each step filter down to the numbers whose
-bit in that spot is the more or less common one (e.g. more common are 1, 0, 0, 1 ...)
-
-- Oxygen Generator is the most common
-- CO2 Scrubber is the least common
-'''
-
 from . import data
 from . import helpers
 import time
