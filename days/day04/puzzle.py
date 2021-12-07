@@ -58,7 +58,6 @@ def markOffBoard(numbers: list, board: list):
         vertDone = checkVertCompletion(markBoard)
         diagDone = checkDiagCompletion(markBoard)
 
-        print(number)
         if (horizDone or vertDone or diagDone):
             return time, number
 
