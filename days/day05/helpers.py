@@ -14,6 +14,8 @@ def findVentVectors(line: str):
     return [(int(x1), int(y1)), (int(x2), int(y2))]
 
 
+# still need to get comfortable with the [x for y in Z if ...]
+# potential that Python has for iterating over lists
 def lineToPoints(line: list[str], diags: bool):
     ((x1, y1), (x2, y2)) = findVentVectors(line)
     if x1 == x2:
