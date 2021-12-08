@@ -9,6 +9,7 @@ from days.day03.puzzle import printPuzzle3
 from days.day04.puzzle import printPuzzle4
 from days.day05.puzzle import printPuzzle5
 from days.day06.puzzle import printPuzzle6
+from days.day07.puzzle import printPuzzle7
 
 puzzles = [
     printPuzzle1,
@@ -16,7 +17,8 @@ puzzles = [
     printPuzzle3,
     printPuzzle4,
     printPuzzle5,
-    printPuzzle6
+    printPuzzle6,
+    printPuzzle7
 ]
 
 inputString = 'Select day to run (1 - %s):'%(len(puzzles))
