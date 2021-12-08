@@ -11,3 +11,6 @@ This is the github repo for my Advent of Code 2021 puzzle solutions. It has been
 - [Dec 2](./days/day02/puzzle.py)
 - [Dec 3](./days/day03/puzzle.py)
 - [Dec 4](./days/day04/puzzle.py)
+- [Dec 5](./days/day05/puzzle.py)
+- [Dec 6](./days/day06/puzzle.py)
+- [Dec 7](./days/day07/puzzle.py)
